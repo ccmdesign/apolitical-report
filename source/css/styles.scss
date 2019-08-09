@@ -1,5 +1,7 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
 
 @import 'breakpoints';
 
@@ -14,28 +16,26 @@ $large: 64.063em;
 @import 'utils';
 
 // Vars for Typography
-$sans-serif: "San Francisco", sans-serif;
-$serif: serif;
-$display: neusa-next-std-wide, sans-serif;
-$text: $sans-serif;
+$sans-serif: 'Work Sans', sans-serif;
+$serif: 'Merriweather', serif;
 
 // Vars for Colors
-$blue: #0e4365;
-$orange: #ff8b0e;
-$pink: #d50052;
-$cyan: #00dbff;
-$green: #2b7c89;
+$white: #ffffff;
+$black: #001b2f;
+$blue: #00c4ff;
+$navy: #002f54;
+$blue-opaque: #0093cA;
 
+$main-color: $blue-opaque;
 
-$main-color: #333;
-$accent-color: $orange;
+$app-body-max: 960px;
 
 @import 'base';
 @import 'main';
-@import 'button';
-@import 'form';
 @import 'columns';
 @import 'header';
 
 @import 'custom';
 @import 'dev';
+
+@import 'components/footer';
