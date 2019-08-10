@@ -1,0 +1,17 @@
+.content-body {
+    position: relative;
+    padding: 48px 0;
+    font-weight: 300;
+
+    &__initial-letter {
+        position: absolute;
+        color: rgba($blue-opaque, 0.2);
+        pointer-events: none;
+        font-weight: 700;
+        font-size: 6em;
+        top: -8px;
+        left: -19px;
+        z-index: -1;
+        user-select: none;
+    }
+}

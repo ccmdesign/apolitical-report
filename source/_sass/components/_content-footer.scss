@@ -1,0 +1,8 @@
+.content-footer {
+    background-color: $navy;
+
+    @include breakpoint($medium-up) {
+        background-color: $white;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    }
+}

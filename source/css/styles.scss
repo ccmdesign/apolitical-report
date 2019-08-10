@@ -1,6 +1,6 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
 
 @import 'breakpoints';
@@ -28,7 +28,7 @@ $blue-opaque: #0093cA;
 
 $main-color: $blue-opaque;
 
-$app-body-max: 960px;
+$app-body-max: 740px;
 
 @import 'base';
 @import 'main';
@@ -39,3 +39,9 @@ $app-body-max: 960px;
 @import 'dev';
 
 @import 'components/footer';
+@import 'components/menu';
+@import 'components/header-tip';
+@import 'components/content-header';
+@import 'components/content-body';
+@import 'components/content-footer';
+@import 'components/content-table-of-contents';

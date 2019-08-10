@@ -1,0 +1,23 @@
+.header-tip-parent {
+    position: relative;
+}
+
+.header-tip {
+    position: absolute;
+    width: 56px;
+    height: 24px;
+    bottom: -23px;
+    left: calc(50% - 28px);
+    transform: translateZ(1px);
+    pointer-events: none;
+
+    &--blue {
+        path {
+            fill: #0093CA;
+
+            @include breakpoint($medium-up) {
+                fill: rgb(0, 172, 229);
+            }
+        }
+    }
+}
