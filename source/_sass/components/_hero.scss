@@ -1,0 +1,22 @@
+.hero {
+    position: relative;
+    padding: 120px 0 90px 0;
+
+    &--blue {
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #34d0ff;
+            z-index: -1;
+        }
+    }
+
+    &-excerpt {
+        color: rgba($navy, 0.8);
+        text-align: center;
+    }
+}

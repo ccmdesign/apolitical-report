@@ -34,7 +34,6 @@
     color: $white;
     background: $navy;
     border: 0;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
     pointer-events: all;
     cursor: pointer;
     transition: background-color 0.13s ease-in, box-shadow 0.13s ease-in;
@@ -54,6 +53,10 @@
 .menu-button-close {
     top: 24px;
     right: 24px;
+
+    @include breakpoint($small-only) {
+        position: fixed;
+    }
 }
 
 .menu {
@@ -84,6 +87,72 @@
 
         @include breakpoint($medium-up) {
             display: none;
+        }
+    }
+}
+
+.menu-sections-title {
+    margin-top: 32px;
+    font-family: $sans-serif;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 1.125em;
+    font-weight: 300;
+
+    @include breakpoint($small-only) {
+        display: none;
+    }
+}
+
+.menu-content__content {
+
+    @include breakpoint($medium-up) {
+        padding-right: 80px;
+        text-align: right;
+    }
+}
+
+.menu-sections {
+    list-style: none;
+    padding: 0;
+
+    & > li {
+        padding: 8px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+        @include breakpoint ($small-only) {
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+
+        a {
+            font-weight: 700;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0 0 4px 0;
+        margin: 0;
+
+        & > li {
+            a {
+                font-weight: 300;
+            }
+        }
+    }
+
+    a {
+        display: block;
+        color: $white;
+        padding: 8px 48px;
+
+        @include breakpoint ($medium-up) {
+            padding: 8px 0;
+        }
+
+        &:hover {
+            color: $white;
         }
     }
 }
