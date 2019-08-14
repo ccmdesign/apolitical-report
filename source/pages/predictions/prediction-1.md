@@ -16,7 +16,7 @@ Even if deepfakes do not improve to the point of being truly disruptive, more tr
 
 First, the focus of public debates is likely to take a further and unhealthy shift toward disputes over the authenticity of statements and evidence, which will in turn reduce the time and energy left to discuss possible actions or solutions to problems. As trust in empirical evidence is undermined, the quality of public debate will decline with more discussions of the type “did Person X really say statement Y?” instead of “how are we going to fix a particular policy problem?”
 
-Second, citizens may react to a larger amount of unreliable news or active disinformation by simply tuning out of civic and political discourse altogether.[^5]: This would mean that even if opportunities arise for citizens to have a say, they may simply fail to leverage these opportunities.
+Second, citizens may react to a larger amount of unreliable news or active disinformation by simply tuning out of civic and political discourse altogether.[^5] This would mean that even if opportunities arise for citizens to have a say, they may simply fail to leverage these opportunities.
 
 Unfortunately, there is every reason to believe that efforts to disempower opponents through digital misinformation attacks will only grow. There are still numerous countries in the world with internet penetration below 50 percent. Currently the rewards for delivering online disinformation in these countries may be relatively limited, but those rewards will grow as internet usage rises, particularly in weakened democratic systems where these activities are less likely to be scrutinized and sanctioned.
 
