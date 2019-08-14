@@ -27,9 +27,11 @@ $(document).ready(function () {
   })
 
   $('.content-body').each(function () {
+    console.log(this)
     const el = $(this)
     const firstParagraph = el.children('p:first')[0]
     if (firstParagraph) {
+      console.log(firstParagraph)
       const firstLetterEl = el.children('.content-body__initial-letter')[0]
       if (firstLetterEl) {
         firstLetterEl.textContent = firstParagraph.textContent[0]

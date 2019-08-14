@@ -1,6 +1,18 @@
+.homepage-hero {
+    @include breakpoint($medium-up) {
+        padding-bottom: 192px;
+    }
+}
+
 .homepage-section {
     background-color: $navy;
-    padding: 192px 0 64px;
+    padding: 112px 0 64px 0;
+    margin-top: -26px;
+
+    @include breakpoint($medium-up) {
+        padding: 208px 0 64px;
+        margin-top: -143px;
+    }
 }
 
 .homepage-navigation {
@@ -41,6 +53,100 @@
             color: rgba(255, 255, 255, 0.8);
             background-color: rgba(255, 255, 255, 0.06);
             text-decoration: none;
+        }
+    }
+}
+
+.homepage-predictions {
+    margin-top: -27px;
+
+    @include breakpoint($medium-up) {
+        margin-top: -143px;
+    }
+}
+
+.homepage-sliders {
+    z-index: 2;
+}
+
+.homepage-prediction-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &__item {
+        position: relative;
+        padding: 0 14px;
+        
+        @include breakpoint($medium-up) {
+            max-width: 512px;
+            margin: 0 auto;
+        }
+    }
+
+    &__item-tip {
+        position: absolute;
+        top: calc(50% - 12px);
+        width: 56px;
+        height: 24px;
+        pointer-events: none;
+        z-index: 1;
+
+        &--left {
+            left: -20px;
+            transform-origin: center;
+            transform: rotate(90deg) scale(0.5);
+        }
+
+        &--right {
+            right: -20px;
+            transform-origin: center;
+            transform: rotate(270deg) scale(0.5);
+        }
+
+        path {
+            fill: $white;
+        }
+    }
+
+    &__item-content {
+        background-color: $white;
+        border-radius: 10px;
+        padding: 12px 28px;
+        box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.16);
+        text-align: center;
+
+        @include breakpoint ($medium-up) {
+            padding: 32px;
+            text-align: left;
+        }
+
+        h3 {
+            font-family: $sans-serif;
+            text-transform: uppercase;
+            color: $navy;
+            margin: 0;
+            padding: 0;
+
+            @include breakpoint ($small-only) {
+                font-size: 1.125em;
+            }
+        }
+
+        p {
+            margin: 16px 0 0 0;
+            font-style: italic;
+            padding: 0;
+            line-height: 1.75;
+        }
+    }
+    
+    &__item-description {
+        height: 192px;
+        overflow-y: auto;
+
+        @include breakpoint($small-only) {
+            display: none;
         }
     }
 }
