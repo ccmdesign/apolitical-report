@@ -10,6 +10,7 @@
     left: calc(50% - 28px);
     transform: translateZ(1px);
     pointer-events: none;
+    z-index: 1;
 
     &--blue {
         path {

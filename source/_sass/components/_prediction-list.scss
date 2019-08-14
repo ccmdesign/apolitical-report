@@ -1,0 +1,63 @@
+.prediction-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    h3 {
+        font-family: $sans-serif;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 0.278px;
+        font-size: 1.5em;
+    }
+
+    p {
+        margin: 16px 0 0 0;
+        color: rgba($navy, 0.8);
+        font-style: italic;
+    }
+
+    li {
+        margin: 0;
+
+        .header-tip path {
+            fill: #D9D8DF;
+        }
+
+        &:nth-child(even) {
+            .prediction-list__item {
+                background-color: #E9E8EC;
+            }
+
+            .header-tip path {
+                fill: #E9E8EC;
+            }
+        }
+
+        &:not(:last-child) {
+            background-color: #E9E8EC;
+
+            &:nth-child(even) {
+                background-color: #D9D8DF;
+            }
+        }
+    }
+
+    &__item {
+        padding: 64px 0;
+        border-radius: 0 0 24px 24px;
+        background-color: #D9D8DF;
+    }
+}
+
+.prediction-list__header-background {
+    background-color: #D9D8DF;
+}
+
+.prediction-list__content-background {
+    background-color: $navy;
+
+    @include breakpoint($medium-up) {
+        background-color: $white;
+    }
+}
