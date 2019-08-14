@@ -24,11 +24,23 @@ github_username:
 
 # Build settings
 markdown: kramdown
-plugins:
+plugins: ['jekyll/scholar']
+
+scholar:
+  style: acm-sig-proceedings
+
+kramdown:
+  parse_block_html: true
 
 # Folder Structure
 source: ./source
 destination: _site
+
+collections:
+  collections_dir: pages
+  predictions:
+    output: true
+    permalink: /:name
 
 
 # Plugins
