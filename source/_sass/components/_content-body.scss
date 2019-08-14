@@ -1,6 +1,6 @@
 .content-body {
     position: relative;
-    padding: 48px 0;
+    padding: 80px 0;
     font-weight: 300;
 
     &__initial-letter {
@@ -9,7 +9,7 @@
         pointer-events: none;
         font-weight: 700;
         font-size: 6em;
-        top: -8px;
+        top: 24px;
         left: -19px;
         z-index: 0;
         user-select: none;
