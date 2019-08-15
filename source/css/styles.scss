@@ -30,6 +30,8 @@ $main-color: $blue-opaque;
 
 $app-body-max: 740px;
 
+@import 'vendors/slick';
+
 @import 'base';
 @import 'main';
 @import 'columns';

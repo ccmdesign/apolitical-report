@@ -13,7 +13,8 @@ function menuVisibility (elements, visibility) {
 $(document).ready(function () {
   const elements = {
     body: $('body'),
-    menuContainer: $('.menu-container')
+    menuContainer: $('.menu-container'),
+    homepagePredictionList: $('.homepage-prediction-list')
   }
   
   $('.js-menu-button').click(function () {
@@ -35,5 +36,27 @@ $(document).ready(function () {
         firstLetterEl.textContent = firstParagraph.textContent[0]
       }
     }
+  })
+
+  elements.homepagePredictionList.slick({
+    centerMode: true,
+    slidesToShow: 5,
+    arrows: false,
+    dots: false,
+    variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+          arrows: true,
+          dots: false,
+          variableWidth: false,
+          prevArrow: null,
+          nextArrow: $('.homepage-sliders__button--next')
+        }
+      }
+    ]
   })
 })
