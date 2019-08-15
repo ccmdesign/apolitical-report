@@ -18,3 +18,32 @@ img {
 .app-body {
   background-color: $white;
 }
+
+#app {
+  opacity: 0;
+  transition: transform 1s ease-in-out, opacity 0.75s ease-in-out, filter 0.33s ease-in-out;
+
+  &.hidden {
+    transform: scale(0.96);
+    filter: blur(15px);
+    pointer-events: none;
+  }
+
+  &.visible {
+    opacity: 1;
+  }
+}
+
+#lock-overlay {
+  transition: transform 1s ease-in-out, opacity 0.13s ease-in-out;
+  opacity: 0;
+
+  &.hidden {
+    transform: scale(0.96);
+    pointer-events: none;
+  }
+
+  &.visible {
+    opacity: 1;
+  }
+}
