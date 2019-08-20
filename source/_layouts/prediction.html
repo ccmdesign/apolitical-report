@@ -25,19 +25,23 @@ layout: default
         <div class="app-wrapper">
             <ul class="content-table-of-contents-navigation">
                 <li class="content-table-of-contents-navigation__previous">
-                    <a href="#">
+                    {% if page.previous_title %}
+                    <a href="{{ page.previous_url }}">
                         <p>Previous</p>
-                        <p style="font-weight: 700;text-transform: uppercase;">Prediction</p>
+                        <p style="font-weight: 700;text-transform: uppercase;">{{ page.previous_title }}</p>
                     </a>
+                    {% endif %}
                 </li>
                 <li class="content-table-of-contents-navigation__button-wrapper js-menu-button">
                     <button>Table of Contents</button>
                 </li>
                 <li class="content-table-of-contents-navigation__next">
-                    <a href="#">
+                    {% if page.next_title %}
+                    <a href="{{ page.next_url }}">
                         <p>Next</p>
-                        <p style="font-weight: 700;text-transform: uppercase;">Prediction</p>
+                        <p style="font-weight: 700;text-transform: uppercase;">{{ page.next_title }}</p>
                     </a>
+                    {% endif %}
                 </li>
             </ul>
         </div>

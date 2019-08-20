@@ -3,6 +3,10 @@ layout: prediction
 prediction_number: 1
 title: Prediction 1
 description: The “fake news” arms race will continue and will grow both in geographic breadth and in resources consumed. It will shift the focus of public debates and drive more people away from participative processes.
+previous_title: Introduction
+previous_url: /pages/introduction.html
+next_title: Prediction 2
+next_url: /pages/predictions/prediction-2.html
 ---
 
 {% contentfor main %}
