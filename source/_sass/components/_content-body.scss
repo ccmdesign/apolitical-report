@@ -9,8 +9,9 @@
         pointer-events: none;
         font-weight: 700;
         font-size: 6em;
-        top: 24px;
-        left: -19px;
+        // top: 24px;
+        top: -56px;
+        left: -18px;
         z-index: 0;
         user-select: none;
     }
@@ -29,5 +30,16 @@
             padding: 0 64px;
             margin: 64px 0;
         }
+    }
+}
+
+.content-footnotes {
+    list-style: none;
+    padding: 0;
+
+    li {
+        margin-top: 32px;
+        border-top: 1px solid rgba($blue-opaque, 0.33);
+        padding-top: 32px;
     }
 }

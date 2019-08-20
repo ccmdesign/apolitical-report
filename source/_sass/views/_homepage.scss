@@ -111,6 +111,10 @@
             margin: 0 auto;
         }
 
+        &:hover {
+            text-decoration: none;
+        }
+
         &.slick-slide {
             transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
             transform: scale(0.94);

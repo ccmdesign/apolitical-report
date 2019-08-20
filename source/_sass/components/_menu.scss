@@ -156,3 +156,12 @@
         }
     }
 }
+
+.menu-logo {
+    display: block;
+    text-align: center;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

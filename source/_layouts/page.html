@@ -19,6 +19,13 @@ layout: default
     <main class="content-body app-wrapper">
         <span class="content-body__initial-letter"></span>
         {% contentblock main %}
+
+        {% capture footnotes_block %}{% contentblock footnotes %}{% endcapture %}
+        {% if footnotes_block.size > 1 %}
+        <ul class="content-footnotes">
+            {% contentblock footnotes %}
+        </ul>
+        {% endif %}
     </main>
 
     <div class="content-footer content-footer--shadow">

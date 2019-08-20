@@ -11,30 +11,33 @@ title: Emerging Digital Technologies &amp; Citizen Participation
 <div class="homepage-predictions">
     <div class="homepage-sliders">
         <ul class="homepage-prediction-list">
-            {% for i in (1..15) %}
-            <li class="homepage-prediction-list__item">
-                <svg class="homepage-prediction-list__item-tip homepage-prediction-list__item-tip--left"><path d="M56,0H0A28,28,0,0,1,28,28,28,28,0,0,1,56,0Z"/></svg>
-                <div class="homepage-prediction-list__item-content">
-                    <h3>Prediction {{ i }}</h3>
-                    <div class="homepage-prediction-list__item-description">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis enim, accusamus ipsa, hic adipisci dolorem rerum quae soluta assumenda iure beatae quis eveniet explicabo amet nostrum incidunt mollitia necessitatibus tenetur!
-                        </p>
+            {% assign predictions = site.pages | where_exp: "prediction", "prediction.prediction_number > 0" | sort: "prediction_number" %}
+            {% for p in predictions %}
+            <a class="homepage-prediction-list__item" href="{{ p.url }}" target="_blank">
+                <li>
+                    <svg class="homepage-prediction-list__item-tip homepage-prediction-list__item-tip--left"><path d="M56,0H0A28,28,0,0,1,28,28,28,28,0,0,1,56,0Z"/></svg>
+                    <div class="homepage-prediction-list__item-content">
+                        <h3>{{ p.title }}</h3>
+                        <div class="homepage-prediction-list__item-description">
+                            <p>
+                                {{ p.description }}
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <svg class="homepage-prediction-list__item-tip homepage-prediction-list__item-tip--right"><path d="M56,0H0A28,28,0,0,1,28,28,28,28,0,0,1,56,0Z"/></svg>
-            </li>
+                    <svg class="homepage-prediction-list__item-tip homepage-prediction-list__item-tip--right"><path d="M56,0H0A28,28,0,0,1,28,28,28,28,0,0,1,56,0Z"/></svg>
+                </li>
+            </a>
             {% endfor %}
         </ul>
         <button class="u-material-icons homepage-sliders__button homepage-sliders__button--next">arrow_forward</button>
     </div>
     <div class="homepage-section">
         <ul class="homepage-navigation">
-            <li><a href="#">Abstract</a></li>
-            <li><a href="#">Introduction</a></li>
-            <li><a href="#">Predictions</a></li>
-            <li><a href="#">Implications &amp; Measures</a></li>
-            <li><a href="#">Conclusions</a></li>
+            <li><a href="/pages/abstract.html" target="_blank">Abstract</a></li>
+            <li><a href="/pages/introduction.html" target="_blank">Introduction</a></li>
+            <li><a href="/prediction-list.html" target="_blank">Predictions</a></li>
+            <li><a href="/pages/implications-conclusions.html" target="_blank">Implications &amp; Measures</a></li>
+            <li><a href="/pages/conclusion.html" target="_blank">Conclusion</a></li>
         </ul>
     </div>
 </div>

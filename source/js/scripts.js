@@ -76,7 +76,9 @@ $(document).ready(function () {
     if (firstParagraph) {
       const firstLetterEl = el.children('.content-body__initial-letter')[0]
       if (firstLetterEl) {
+        $(firstParagraph).css('position', 'relative')
         firstLetterEl.textContent = firstParagraph.textContent[0]
+        $(firstLetterEl).prependTo(firstParagraph)
       }
     }
   })
@@ -101,5 +103,12 @@ $(document).ready(function () {
         }
       }
     ]
+  })
+
+  elements.lockInput.keyup(function (event) {
+    if (event.keyCode === 13) {
+      event.preventDefault()
+      tryVisiblity(elements)
+    }
   })
 })
