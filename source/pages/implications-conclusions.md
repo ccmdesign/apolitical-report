@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Implications and Conclusions
+title: Implications &amp; Conclusions
 description: >
   
-previous_title: Enter Blockchain Technologies
-previous_url: /pages/enter-blockchain.html
-next_title: Measure 1
-next_url: /pages/measures/measure-1.html
+previous_title: Prediction 11
+previous_url: /pages/predictions/prediction-11.html
+next_title: Conclusion
+next_url: /pages/conclusion.html
 ---
 
 {% contentfor main %}

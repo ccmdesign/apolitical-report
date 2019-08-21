@@ -3,10 +3,8 @@ layout: page
 title: Conclusion
 description: >
   
-previous_title: Measure 6
-previous_url: /pages/measures/measure-6.html
-next_title: References
-next_url: /pages/references.html
+previous_title: Implications &amp; Conclusions
+previous_url: /pages/implications-conclusions.html
 ---
 
 {% contentfor main %}

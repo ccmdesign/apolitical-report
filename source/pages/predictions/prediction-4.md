@@ -4,8 +4,8 @@ prediction_number: 4
 title: Prediction 4
 description: >
   More political parties will develop more of their policy and choose more of their candidates through dedicated digital platforms.
-previous_title: The growing impact of identity technologies on citizen engagement
-previous_url: /pages/identity-technologies.html
+previous_title: Prediction 3
+previous_url: /pages/predictions/prediction-3.html
 next_title: Prediction 5
 next_url: /pages/predictions/prediction-5.html
 ---

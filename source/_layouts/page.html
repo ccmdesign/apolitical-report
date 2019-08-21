@@ -20,12 +20,12 @@ layout: default
                     <h1 style="user-select: none;">&nbsp;</h1>
                     {% endif %}
                 </hgroup>
-                <p class="content-header__description">
-                    {{ chapter.description }}
-                </p>
             </li>
             {% endfor %}
         </ul>
+        <p class="app-wrapper content-header__description" style="margin-left:auto;margin-right:auto;">
+            {{ page.description }}
+        </p>
         <svg class="header-tip header-tip--blue"><path d="M56,0H0A28,28,0,0,1,28,28,28,28,0,0,1,56,0Z"/></svg>
     </div>
 
