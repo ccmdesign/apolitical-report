@@ -1,18 +1,31 @@
 ---
 layout: default
 ---
-
+{% assign initialSlide = 0 %}
+{% for chapter in site.data.config.index %}
+    {% if chapter.url == page.url %}
+        {% assign initialSlide = forloop.index0 %}
+    {% endif %}
+{% endfor %}
 <div class="app-body">
     <div class="content-header header-tip-parent">
-        <div class="app-wrapper">
-            <hgroup class="content-header__title">
-                <h2>Prediction</h2>
-                <h1>{{ page.prediction_number }}</h1>
-            </hgroup>
-            <p class="content-header__description">
-                {{ page.description }}
-            </p>
-        </div>
+        <ul class="content-header-slider" data-initial-slide="{{ initialSlide }}">
+            {% for chapter in site.data.config.index %}
+            <li data-slide-url="{{ chapter.url }}">
+                <hgroup class="content-header__title">
+                    <h2>{{ chapter.header_title | default: chapter.title }}</h2>
+                    {% if chapter.before_title %}
+                    <h1>{{ chapter.before_title }}</h1>
+                    {% else %}
+                    <h1 style="user-select: none;">&nbsp;</h1>
+                    {% endif %}
+                </hgroup>
+                <p class="content-header__description">
+                    {{ chapter.description }}
+                </p>
+            </li>
+            {% endfor %}
+        </ul>
         <svg class="header-tip header-tip--blue"><path d="M56,0H0A28,28,0,0,1,28,28,28,28,0,0,1,56,0Z"/></svg>
     </div>
 

@@ -3,55 +3,77 @@ index:
     url: /pages/abstract.html
   - title: Introduction
     url: /pages/introduction.html
-  - title: Purpose
-    url: /pages/purpose.html
-  - title: A Note on Context
-    url: /pages/note-context.html
-  - title: Approach
-    url: /pages/approach.html
-  - title: Eleven predictions on the influence of emerging technologies
-    url: /pages/predictions-intro.html
+  #- title: Purpose
+  #  url: /pages/purpose.html
+  #- title: A Note on Context
+  #  url: /pages/note-context.html
+  #- title: Approach
+  #  url: /pages/approach.html
+  #- title: Eleven predictions on the influence of emerging technologies
+  #  url: /pages/predictions-intro.html
   - title: Prediction 1
+    header_title: Prediction
+    before_title: 1
     url: /pages/predictions/prediction-1.html
   - title: Prediction 2
+    header_title: Prediction
+    before_title: 2
     url: /pages/predictions/prediction-2.html
   - title: Prediction 3
+    header_title: Prediction
+    before_title: 3
     url: /pages/predictions/prediction-3.html
-  - title: The Growing Impact of Identity Technologies on Citizen Engagement
-    url: /pages/identity-technologies.html
+  #- title: The Growing Impact of Identity Technologies on Citizen Engagement
+  #  url: /pages/identity-technologies.html
   - title: Prediction 4
+    header_title: Prediction
+    before_title: 4
     url: /pages/predictions/prediction-4.html
   - title: Prediction 5
+    header_title: Prediction
+    before_title: 5
     url: /pages/predictions/prediction-5.html
   - title: Prediction 6
+    header_title: Prediction
+    before_title: 6
     url: /pages/predictions/prediction-6.html
   - title: Prediction 7
+    header_title: Prediction
+    before_title: 7
     url: /pages/predictions/prediction-7.html
   - title: Prediction 8
+    header_title: Prediction
+    before_title: 8
     url: /pages/predictions/prediction-8.html
   - title: Prediction 9
+    header_title: Prediction
+    before_title: 9
     url: /pages/predictions/prediction-9.html
   - title: Prediction 10
+    header_title: Prediction
+    before_title: 10
     url: /pages/predictions/prediction-10.html
   - title: Prediction 11
+    header_title: Prediction
+    before_title: 11
     url: /pages/predictions/prediction-11.html
-  - title: Enter blockchain technologies
-    url: /pages/enter-blockchain.html
+  #- title: Enter blockchain technologies
+  #  url: /pages/enter-blockchain.html
   - title: Implications and Conclusions
     url: /pages/implications-conclusions.html
-  - title: Measure 1
-    url: /pages/measures/measure-1.html
-  - title: Measure 2
-    url: /pages/measures/measure-2.html
-  - title: Measure 3
-    url: /pages/measures/measure-3.html
-  - title: Measure 4
-    url: /pages/measures/measure-4.html
-  - title: Measure 5
-    url: /pages/measures/measure-5.html
-  - title: Measure 6
-    url: /pages/measures/measure-6.html
+  #- title: Measure 1
+  #  url: /pages/measures/measure-1.html
+  #- title: Measure 2
+  #  url: /pages/measures/measure-2.html
+  #- title: Measure 3
+  #  url: /pages/measures/measure-3.html
+  #- title: Measure 4
+  #  url: /pages/measures/measure-4.html
+  #- title: Measure 5
+  #  url: /pages/measures/measure-5.html
+  #- title: Measure 6
+  #  url: /pages/measures/measure-6.html
   - title: Conclusion
     url: /pages/conclusion.html
-  - title: References
-    url: /pages/references.html
+  #- title: References
+  #  url: /pages/references.html

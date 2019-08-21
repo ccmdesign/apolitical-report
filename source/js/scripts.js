@@ -89,6 +89,7 @@ $(document).ready(function () {
     arrows: false,
     dots: false,
     variableWidth: true,
+    adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 640,
@@ -98,6 +99,7 @@ $(document).ready(function () {
           arrows: true,
           dots: false,
           variableWidth: false,
+          adaptiveHeight: true,
           prevArrow: null,
           nextArrow: $('.homepage-sliders__button--next')
         }
@@ -111,4 +113,59 @@ $(document).ready(function () {
       tryVisiblity(elements)
     }
   })
+
+  const headerSliderElement = $('.content-header-slider')
+
+  const initialHeaderSlide = +(headerSliderElement.attr('data-initial-slide') || '0')
+
+  const headerSlider = headerSliderElement.slick({
+    centerMode: true,
+    slidesToShow: 3,
+    arrows: false,
+    dots: false,
+    variableWidth: false,
+    adaptiveHeight: true,
+    infinite: false,
+    initialSlide: initialHeaderSlide,
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          centerMode: true,
+          slidesToShow: 1,
+          arrows: false,
+          dots: false,
+          variableWidth: false,
+          adaptiveHeight: true,
+          infinite: false,
+          initialSlide: initialHeaderSlide
+        }
+      }
+    ]
+  })
+
+  let headerSliderTimeout = null
+
+  function clearHeaderSliderTimeout () {
+    if (headerSliderTimeout === null) return
+    clearTimeout(headerSliderTimeout)
+    headerSliderTimeout = null
+  }
+
+  headerSlider.on('swipe', clearHeaderSliderTimeout)
+  headerSlider.on('edge', clearHeaderSliderTimeout)
+
+  headerSlider.on('afterChange', function (event, slick, currentSlide) {
+    headerSliderTimeout = setTimeout(() => {
+      const el = $(`[data-slick-index="${currentSlide}"`)
+      if (el) {
+        const url = el.attr('data-slide-url')
+        if (url && location.pathname.toLowerCase() !== url.toLowerCase()) {
+          location.href = url
+        }
+      }
+    }, 500)
+  })
+
+
 })
