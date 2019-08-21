@@ -23,6 +23,7 @@ img {
   opacity: 0;
   transition: transform 1s ease-in-out, opacity 0.75s ease-in-out, filter 0.33s ease-in-out;
   min-height: 100vh;
+  padding-bottom: 120px;
 
   &.hidden {
     transform: scale(0.96);
