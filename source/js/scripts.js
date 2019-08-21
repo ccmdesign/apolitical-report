@@ -83,29 +83,42 @@ $(document).ready(function () {
     }
   })
 
-  elements.homepagePredictionList.slick({
-    centerMode: true,
-    slidesToShow: 5,
-    arrows: false,
-    dots: false,
-    variableWidth: true,
-    adaptiveHeight: true,
-    responsive: [
-      {
-        breakpoint: 640,
-        settings: {
-          centerMode: false,
-          slidesToShow: 1,
-          arrows: true,
-          dots: false,
-          variableWidth: false,
-          adaptiveHeight: true,
-          prevArrow: null,
-          nextArrow: $('.homepage-sliders__button--next')
+  if (elements.homepagePredictionList) {
+    const homepagePredictionList = elements.homepagePredictionList.slick({
+      centerMode: true,
+      slidesToShow: 5,
+      arrows: false,
+      dots: false,
+      variableWidth: true,
+      adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 640,
+          settings: {
+            centerMode: false,
+            slidesToShow: 1,
+            arrows: true,
+            dots: false,
+            variableWidth: false,
+            adaptiveHeight: true,
+            prevArrow: null,
+            nextArrow: $('.homepage-sliders__button--next')
+          }
+        }
+      ]
+    })
+
+    $('.homepage-prediction-list .slick-slide').click(function (event) {
+      const thisEl = $(this)
+      if (!thisEl.hasClass('slick-current')) {
+        const index = thisEl.attr('data-slick-index')
+        if (index !== undefined && index !== null) {
+          event.preventDefault()
+          homepagePredictionList.slick('slickGoTo', +(index || '0'))
         }
       }
-    ]
-  })
+    })
+  }
 
   elements.lockInput.keyup(function (event) {
     if (event.keyCode === 13) {
@@ -116,56 +129,73 @@ $(document).ready(function () {
 
   const headerSliderElement = $('.content-header-slider')
 
-  const initialHeaderSlide = +(headerSliderElement.attr('data-initial-slide') || '0')
+  if (headerSliderElement) {
 
-  const headerSlider = headerSliderElement.slick({
-    centerMode: true,
-    slidesToShow: 3,
-    arrows: false,
-    dots: false,
-    variableWidth: false,
-    adaptiveHeight: true,
-    infinite: false,
-    initialSlide: initialHeaderSlide,
-    responsive: [
-      {
-        breakpoint: 640,
-        settings: {
-          centerMode: true,
-          slidesToShow: 1,
-          arrows: false,
-          dots: false,
-          variableWidth: false,
-          adaptiveHeight: true,
-          infinite: false,
-          initialSlide: initialHeaderSlide
+    const initialHeaderSlide = +(headerSliderElement.attr('data-initial-slide') || '0')
+
+    const headerSlider = headerSliderElement.slick({
+      centerMode: true,
+      slidesToShow: 3,
+      arrows: false,
+      dots: false,
+      variableWidth: false,
+      adaptiveHeight: true,
+      infinite: false,
+      initialSlide: initialHeaderSlide,
+      responsive: [
+        {
+          breakpoint: 640,
+          settings: {
+            centerMode: true,
+            slidesToShow: 1,
+            arrows: false,
+            dots: false,
+            variableWidth: false,
+            adaptiveHeight: true,
+            infinite: false,
+            initialSlide: initialHeaderSlide
+          }
+        }
+      ]
+    })
+
+    let headerSliderTimeout = null
+
+    function clearHeaderSliderTimeout () {
+      if (headerSliderTimeout === null) return
+      clearTimeout(headerSliderTimeout)
+      headerSliderTimeout = null
+    }
+
+    headerSlider.on('swipe', clearHeaderSliderTimeout)
+    headerSlider.on('edge', clearHeaderSliderTimeout)
+    headerSlider.on('beforeChange', clearHeaderSliderTimeout)
+
+    headerSlider.on('afterChange', function (event, slick, currentSlide) {
+      clearHeaderSliderTimeout()
+      headerSliderTimeout = setTimeout(() => {
+        const el = $(`[data-slick-index="${currentSlide}"`)
+        if (el) {
+          const url = el.attr('data-slide-url')
+          if (url && location.pathname.toLowerCase() !== url.toLowerCase()) {
+            location.href = url
+          }
+        }
+      }, 500)
+    })
+
+    $('.content-header-slider .slick-slide').click(function () {
+      const thisEl = $(this)
+      if (!thisEl.hasClass('slick-current')) {
+        const index = thisEl.attr('data-slick-index')
+        if (index !== undefined && index !== null) {
+          clearHeaderSliderTimeout()
+          headerSlider.slick('slickGoTo', +(index || '0'))
         }
       }
-    ]
-  })
+    })
 
-  let headerSliderTimeout = null
-
-  function clearHeaderSliderTimeout () {
-    if (headerSliderTimeout === null) return
-    clearTimeout(headerSliderTimeout)
-    headerSliderTimeout = null
   }
-
-  headerSlider.on('swipe', clearHeaderSliderTimeout)
-  headerSlider.on('edge', clearHeaderSliderTimeout)
-
-  headerSlider.on('afterChange', function (event, slick, currentSlide) {
-    headerSliderTimeout = setTimeout(() => {
-      const el = $(`[data-slick-index="${currentSlide}"`)
-      if (el) {
-        const url = el.attr('data-slide-url')
-        if (url && location.pathname.toLowerCase() !== url.toLowerCase()) {
-          location.href = url
-        }
-      }
-    }, 500)
-  })
 
 
 })

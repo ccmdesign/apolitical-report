@@ -100,6 +100,11 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    cursor: grab;
+
+    &:active {
+        cursor: grabbing;
+    }
 
     &__item {
         position: relative;
@@ -116,18 +121,19 @@
         }
 
         &.slick-slide {
-            transition: transform 0.5s ease-in-out;
             transform: scale(0.7);
+            transition: transform 0.5s ease-in-out;
             cursor: grab;
 
             &:active {
-                cursor: grabbing;
+                cursor: grabbing !important;
             }
         }
 
         &.slick-current {
             transform: none;
             opacity: 1;
+            cursor: pointer;
         }
     }
 
