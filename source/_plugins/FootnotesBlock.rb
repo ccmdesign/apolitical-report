@@ -19,7 +19,7 @@ module Jekyll
       markdown = markdown.gsub('<p>', '')
       markdown = markdown.gsub('</p>', '')
 
-      "<li id=\"fn:#{context[1]}\"><p>#{markdown}<a href=\"#fnref:#{context[1]}\" class=\"reversefootnote\">↩</a></p></li>"
+      "<li id=\"fn:#{context[1]}\"><p>#{context[0]}: #{markdown}<a href=\"#fnref:#{context[1]}\" class=\"reversefootnote\">↩</a></p></li>"
     end
   end
 end

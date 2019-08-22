@@ -150,7 +150,7 @@ $(document).ready(function () {
             slidesToShow: 1,
             arrows: false,
             dots: false,
-            variableWidth: false,
+            variableWidth: true,
             adaptiveHeight: true,
             infinite: false,
             initialSlide: initialHeaderSlide
