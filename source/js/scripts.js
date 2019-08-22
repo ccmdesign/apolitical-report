@@ -174,7 +174,7 @@ $(document).ready(function () {
     headerSlider.on('afterChange', function (event, slick, currentSlide) {
       clearHeaderSliderTimeout()
       headerSliderTimeout = setTimeout(() => {
-        const el = $(`[data-slick-index="${currentSlide}"`)
+        const el = $(`[data-slick-index="${currentSlide}"]`)
         if (el) {
           const url = el.attr('data-slide-url')
           if (url && location.pathname.toLowerCase() !== url.toLowerCase()) {
