@@ -75,11 +75,11 @@
     top: calc(50% - 20px);
     width: 40px;
     height: 40px;
-    background: $blue-opaque;
+    background: transparent;
     border: 0;
     border-radius: 50px;
-    color: $white;
-    box-shadow: 0px 0px 4px #000000;
+    color: $blue-opaque;
+    // box-shadow: 0px 0px 4px #000000;
     cursor: pointer;
     touch-action: auto;
     font-size: 28px;
