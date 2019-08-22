@@ -16,6 +16,8 @@ It is now widely recognized that state and nonstate actors in numerous countries
 
 One of the most eye-catching of these new mechanisms is ”deepfakes,” the process of using still-emerging artificial intelligence technologies to produce videos in which people are portrayed doing and saying things they never did or said. The technology is somewhat immature, and the quality of video and audio is at present mostly unconvincing. But the increasing use of artificial intelligence (AI) techniques is leading to a new generation of fake imagery and audio with increasingly realistic results. There are, understandably, widespread concerns of the impact of deepfake technologies if they improve to the point of being indistinguishable from authentic footage.[^4]
 
+{% include _youtube-frame.html src="https://www.youtube.com/embed/cQ54GDm1eL0" %}
+
 Even if deepfakes do not improve to the point of being truly disruptive, more traditional forms of online misinformation still matter significantly to the success of bona fide citizen engagement. Two key problems emerge from our analysis.
 
 First, the focus of public debates is likely to take a further and unhealthy shift toward disputes over the authenticity of statements and evidence, which will in turn reduce the time and energy left to discuss possible actions or solutions to problems. As trust in empirical evidence is undermined, the quality of public debate will decline with more discussions of the type “did Person X really say statement Y?” instead of “how are we going to fix a particular policy problem?”

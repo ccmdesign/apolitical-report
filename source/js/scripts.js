@@ -197,5 +197,12 @@ $(document).ready(function () {
 
   }
 
+  $('.content-body-slider').slick({
+    infinite: true,
+    arrows: false,
+    dots: true,
+    adaptiveHeight: true
+  })
+
 
 })
