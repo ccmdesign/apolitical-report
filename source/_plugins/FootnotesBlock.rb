@@ -19,7 +19,9 @@ module Jekyll
       markdown = markdown.gsub('<p>', '')
       markdown = markdown.gsub('</p>', '')
 
-      "<li id=\"fn:#{context[1]}\"><p>#{context[0]}: #{markdown}<a href=\"#fnref:#{context[1]}\" class=\"reversefootnote\">↩</a></p></li>"
+      n = /([0-9]+)/.match(context[1]).to_s
+
+      "<li id=\"fn:#{context[1]}\"><p>#{n}: #{markdown}<a href=\"#fnref:#{context[1]}\" class=\"reversefootnote\">↩</a></p></li>"
     end
   end
 end
