@@ -1,5 +1,5 @@
 ---
-layout: prediction
+layout: page
 prediction_number: 9
 title: Prediction 9
 description: >

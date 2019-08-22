@@ -1,5 +1,5 @@
 ---
-layout: measure
+layout: page
 measure_number: 6
 title: Measure 6
 description: >

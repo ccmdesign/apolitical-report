@@ -15,7 +15,7 @@ layout: default
                 <hgroup class="content-header__title">
                     <h2>{{ chapter.header_title | default: chapter.title }}</h2>
                     {% if chapter.before_title %}
-                    <h1>{{ chapter.before_title }}</h1>
+                    <h1{% if chapter.before_title == 10 %} style="margin-left:-0.25em;"{% elsif chapter.before_title == 11 %} style="margin-left:-0.15em;"{% endif %}>{{ chapter.before_title }}</h1>
                     {% else %}
                     <h1 style="user-select: none;">&nbsp;</h1>
                     {% endif %}
