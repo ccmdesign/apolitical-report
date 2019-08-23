@@ -16,10 +16,10 @@ next_url: /pages/predictions/prediction-5.html
 Over the last decade a range of digital tools have been built for a common purpose: to help groups of politically minded people to make decisions together. Typically, these tools allow political parties or campaign groups to set up their own private deliberation websites, open only to members of particular communities. Some of the best known tools in this space are Loomio, DemocracyOS, Decidim, and LiquidFeedback.
 
 <ul class="content-body-slider">
-<li><img src="https://source.unsplash.com/random?orientation=squarish&sig=1" /></li>
-<li><img src="https://source.unsplash.com/random?orientation=squarish&sig=2" /></li>
-<li><img src="https://source.unsplash.com/random?orientation=squarish&sig=3" /></li>
-<li><img src="https://source.unsplash.com/random?orientation=squarish&sig=4" /></li>
+<li><img src="/images/predictions/prediction-4/prediction-4-c-loomio.png" /></li>
+<li><img src="/images/predictions/prediction-4/prediction-4-d-democracy-os.png" /></li>
+<li><img src="/images/predictions/prediction-4/prediction-4-b-decidim.png" /></li>
+<li><img src="/images/predictions/prediction-4/prediction-4-a-liquid-feedback.png" /></li>
 </ul>
 
 The websites powered by these tools offer users a mixture of debating, proposing, and voting functions that give them ways to voice opinions, propose motions, debate ideas, and vote to find positions that will command the respect of majorities. The ultimate purpose of these tools is to help groups of people be more successful and effective at coordinating collective action.

@@ -25,6 +25,11 @@ Finally, doubts about robust recordkeeping have a negative impact on the effecti
 
 In summary, a lack of faith in the reliability of civic recordkeeping is an active suppressor of many kinds of citizen engagement activities, both old and new.
 
+<figure>
+  <img src="/images/predictions/prediction-11/prediction-11-mudamos.png" />
+  <p>Image by <a href="https://www.mudamos.org/" target="_blank" rel="noopener">mudamos.org</a></p>
+</figure>
+
 ### Enter Blockchain Technologies
 
 Into this doubt-riddled scene, a new technology has appeared; a technology that can, in the eye of its proponents, eliminate some of the mistrust of data. This new technology has various names, but in this paper it’s called “blockchain” to reflect its most popular moniker.[^19]

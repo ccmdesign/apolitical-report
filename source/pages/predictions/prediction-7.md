@@ -15,6 +15,11 @@ next_url: /pages/predictions/prediction-8.html
 
 In the countries where internet technologies were originally developed, payment for access has largely followed one standard approach. For connectivity, subscribers pay an internet service provider for the ability to send and receive packets of information from anywhere on the internet. Sometimes subscribers pay per gigabyte or per month, but the essential model is the same everywhere — you pay and you receive connectivity.
 
+<figure>
+  <img src="/images/predictions/prediction-7/prediction-7-no-free-lunch.png" />
+  <p>Image by <a href="https://www.ccmdesign.ca/" target="_blank" rel="noopener">ccm.design</a></p>
+</figure>
+
 This model is not how the internet has been rolling out in an increasing number of countries. Instead the usual method of acquiring internet access for millions of people is through Facebook’s Free Basics program. It allows someone with a phone and SIM card to access certain parts of the internet entirely free of charge. The mobile company’s costs are paid for by Facebook, which makes money by selling advertising through its tools. [^14]
 
 The limit to the free offer is that citizens cannot access any site or app on the internet, only those that Facebook subsidizes access to, such as Wikipedia and Dictionary.com.

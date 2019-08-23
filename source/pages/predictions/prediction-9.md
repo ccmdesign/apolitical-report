@@ -19,6 +19,9 @@ Combinations of various current and emerging technologies will change this. Trad
 
 This is only just one way in which semi- or fully automated data systems will spot problems before citizens get around to it. Dirty or undrinkable water will be detected by sensors plugged into the water networks. Broken public infrastructure (such as street signs) will be detected most likely from the camera footage taken by municipal vehicles. Noise pollution from houses or factories will be identified by microphones already embedded in a huge variety of devices. Even teacher or police underperformance might be detected automatically and remotely through different kinds of data analysis. 
 
+> The more data you have, the less participation and voluntary input from citizens will the government need."
+<p class="quote-author">- Cesar Hidalgo</p>
+
 The net effect of an automated data system will be to give local governments adequate resources to detect and solve more problems before local citizens have to report them. The number of people who make complaints or report problems will be reduced. It will also be more convenient for individual citizens, saving them time and effort. This convenience, however, may come at a price.
 
 Hollie Russon-Gilman, lecturer in technology and public participation at Columbia University, assesses the potential situation as worrisome. “If people don’t see what prompts the government to respond, they will fail to understand a basic dynamic of participation, because the nexus between the citizen’s voice and the government’s response tends to disappear.”

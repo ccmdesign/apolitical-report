@@ -21,6 +21,11 @@ Until recently, these kinds of data trails weren’t of much interest to governm
 
 The most famous example of this is China’s “social credit” scoring system, which was announced in 2014 and expected to be rolled out by 2020 (Creemers 2018).
 
+<figure>
+  <img src="/images/predictions/prediction-2/prediction-2-black-mirror-nosedive-poster.jpg" />
+  <p><a href="https://www.netflix.com/watch/80104627" target="_blank" rel="noopener">Watch the Episode</a> | <a href="https://en.wikipedia.org/wiki/Nosedive_(Black_Mirror)" target="_blank" rel="noopener">Read on Wikipedia</a> | Image by Netflix</p>
+</figure>
+
 This system (or perhaps more accurately network of systems) develops profile scores for citizens, which are based on a range of activities that people carry out online and indeed offline. This score is then used to determine whether citizens are eligible to carry out a wide range of activities, such as buying domestic flight tickets or business class train tickets, or if they have full-speed access to the internet.
 
 The social credit system is not entirely about deterring behaviors deemed to be undesirable. The Chinese government is also using good scores to give perks to citizens. These include avoiding the need for cash deposits when booking hotels and speeding up paperwork related to international travel. It is even claimed that dating sites are increasing prospective matches for people with higher social credit scores. Most notable for a study on citizen participation is the policy decision to give people with high credit scores preferential access
