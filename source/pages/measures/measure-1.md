@@ -4,7 +4,7 @@ measure_number: 1
 title: Measure 1
 description: >
   Governments can be ready for what comes next by embracing the user-centered digital government movement.
-previous_title: Implications and Conclusions 
+previous_title: Implications 
 previous_url: /pages/implications-conclusions.html
 next_title: Measure 2
 next_url: /pages/measures/measure-2.html

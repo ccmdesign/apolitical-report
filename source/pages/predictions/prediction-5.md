@@ -13,11 +13,6 @@ next_url: /pages/predictions/prediction-6.html
 {% contentfor main %}
 {% markdown %}
 
-<figure>
-  <img src="/images/predictions/prediction-5/prediction-5-black-mirror-15-million-merits.png" />
-  <p><a href="https://www.netflix.com/watch/70264858" target="_blank" rel="noopener">Watch the Episode</a> | <a href="https://en.wikipedia.org/wiki/Fifteen_Million_Merits" target="_blank" rel="noopener">Read on Wikipedia</a> | Image by Netflix</p>
-</figure>
-
 The majority of public discourse about political issues now takes place on a small number of very large social media platforms, most significantly Facebook, Twitter, WeChat, and Sina Weibo. There is also an unknowably large amount of political discourse within private chat applications like iMessage and WhatsApp.
 
 The companies that run these platforms are already regulated by different regimes in different countries. For example, Germany has legal prohibitions against certain kinds of hate speech that would be constitutionally protected speech in the United States. Both legal systems need to be respected by platforms like Facebook, which means programming different solutions for different markets, all while keeping the overall systems interoperable.

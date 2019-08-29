@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Implications &amp; Conclusions
+title: Implications
 description: >
   
 previous_title: Prediction 11
 previous_url: /pages/predictions/prediction-11.html
-next_title: Conclusion
-next_url: /pages/conclusion.html
+next_title: Measure 1
+next_url: /pages/measures/measure-1.html
 ---
 
 {% contentfor main %}

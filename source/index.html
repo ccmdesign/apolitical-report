@@ -36,8 +36,22 @@ title: Emerging Digital Technologies &amp; Citizen Participation
             <li><a href="/pages/abstract.html" target="_blank">Abstract</a></li>
             <li><a href="/pages/introduction.html" target="_blank">Introduction</a></li>
             <li><a href="/predictions.html" target="_blank">Predictions</a></li>
-            <li><a href="/pages/implications-conclusions.html" target="_blank">Implications &amp; Measures</a></li>
+            <li><a href="/pages/implications-conclusions.html" target="_blank">Implications</a></li>
+            <li><a href="/measures.html" target="_blank">Measures</a></li>
             <li><a href="/pages/conclusion.html" target="_blank">Conclusion</a></li>
         </ul>
     </div>
 </div>
+
+<ul class="homepage-index">
+    {% for item in site.data.config.small_index %}
+    <li>
+        <a href="{{ item.url }}">
+            <h4>{{ item.title }}</h4>
+            {% if item.description %}
+            <p>{{ item.description }}</p>
+            {% endif %}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

@@ -63,11 +63,15 @@
     }
 
     &__button-wrapper {
-        button {
-            display: block;
+        text-align: center;
+        a {
+            display: inline-block;
+            width: 100%;
             background: none;
             font-weight: 700;
             text-transform: uppercase;
+            text-align: center;
+            margin: 0 auto;
             color: $navy;
             border: 0;
             cursor: pointer;
@@ -85,20 +89,18 @@
     &__previous {
         text-align: left;
 
-        @include breakpoint($medium-up) {
-            a {
-                margin: 0 auto 0 0;
-                border-right: 1px solid rgba(#123053, 0.25);
-            }
+        a {
+            margin: 0 auto 0 0;
+            border-right: 1px solid rgba(#123053, 0.25);
+        }
+
+        @include breakpoint($small-only) {
+            display: none !important;
         }
     }
 
     &__next {
         text-align: right;
-        
-        a {
-            border-left: 1px solid rgba(255, 255, 255, 0.25);
-        }
 
         @include breakpoint($medium-up) {
             a {

@@ -63,6 +63,10 @@
     @include breakpoint($medium-up) {
         margin-top: -143px;
     }
+
+    @include breakpoint($small-only) {
+        display: none;
+    }
 }
 
 .homepage-sliders {
@@ -200,6 +204,56 @@
 
         @include breakpoint($small-only) {
             display: none;
+        }
+    }
+}
+
+.homepage-index {
+    list-style: none;
+    padding: 20px 40px;
+
+    @include breakpoint($medium-up) {
+        display: none;
+    }
+
+    li {
+        margin: 0;
+    }
+
+    li + li {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    a {
+        display: block;
+        padding: 20px 0;
+        color: $white;
+
+        &:hover {
+            text-decoration: none;
+            color: $white;
+
+            h4 {
+                text-decoration: underline;
+            }
+        }
+
+        h4, p {
+            margin: 0;
+        }
+
+        h4 + p {
+            margin-top: 4px;
+        }
+
+        h4 {
+            font-family: Arial, sans-serif;
+        }
+
+        p {
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: lighter;
         }
     }
 }

@@ -7,11 +7,11 @@ layout: default
         <div class="content-header header-tip-parent">
             <div class="app-wrapper">
                 <hgroup class="content-header__title">
-                    <h2>Predictions</h2>
+                    <h2>Measures</h2>
                     <h1 style="user-select: none;">&nbsp;</h1>
                 </hgroup>
                 <p class="content-header__description">
-                    The research process identified “must watch” areas where relatively new digital technologies seem likely to influence the way citizens engage with governments. Eleven predictions emerged.
+                    The research process identified “must watch” areas where relatively new digital technologies seem likely to influence the way citizens engage with governments. Six measures emerged.
                 </p>
             </div>
             <svg class="header-tip header-tip--blue"><path d="M56,0H0A28,28,0,0,1,28,28,28,28,0,0,1,56,0Z"/></svg>
@@ -20,14 +20,14 @@ layout: default
 
     <main class="prediction-list__content-background">
         <ul class="prediction-list">
-            {% assign predictions = site.pages | where_exp: "prediction", "prediction.prediction_number > 0" | sort: "prediction_number" %}
-            {% for p in predictions %}
+            {% assign measures = site.pages | where_exp: "measure", "measure.measure_number > 0" | sort: "measure_number" %}
+            {% for m in measures %}
             <li>
                 <div class="prediction-list__item header-tip-parent">
                     <div class="app-wrapper">
-                        <a href="{{ p.url }}" target="_blank">
-                            <h3>{{ p.title }}</h3>
-                            <p>{{ p.description }}</p>
+                        <a href="{{ m.url }}" target="_blank">
+                            <h3>{{ m.title }}</h3>
+                            <p>{{ m.description }}</p>
                         </a>
                     </div>
                     <svg class="header-tip"><path d="M56,0H0A28,28,0,0,1,28,28,28,28,0,0,1,56,0Z"/></svg>

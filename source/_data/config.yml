@@ -59,21 +59,89 @@ index:
     url: /pages/predictions/prediction-11.html
   #- title: Enter blockchain technologies
   #  url: /pages/enter-blockchain.html
-  - title: Implications &amp; Conclusions
+  - title: Implications
     url: /pages/implications-conclusions.html
-  #- title: Measure 1
-  #  url: /pages/measures/measure-1.html
-  #- title: Measure 2
-  #  url: /pages/measures/measure-2.html
-  #- title: Measure 3
-  #  url: /pages/measures/measure-3.html
-  #- title: Measure 4
-  #  url: /pages/measures/measure-4.html
-  #- title: Measure 5
-  #  url: /pages/measures/measure-5.html
-  #- title: Measure 6
-  #  url: /pages/measures/measure-6.html
+  - title: Measure 1
+    header_title: Measure
+    before_title: 1
+    url: /pages/measures/measure-1.html
+  - title: Measure 2
+    header_title: Measure
+    before_title: 2
+    url: /pages/measures/measure-2.html
+  - title: Measure 3
+    header_title: Measure
+    before_title: 3
+    url: /pages/measures/measure-3.html
+  - title: Measure 4
+    header_title: Measure
+    before_title: 4
+    url: /pages/measures/measure-4.html
+  - title: Measure 5
+    header_title: Measure
+    before_title: 5
+    url: /pages/measures/measure-5.html
+  - title: Measure 6
+    header_title: Measure
+    before_title: 6
+    url: /pages/measures/measure-6.html
   - title: Conclusion
     url: /pages/conclusion.html
   #- title: References
   #  url: /pages/references.html
+
+small_index:
+  - title: Abstract
+    url: /pages/abstract.html
+  - title: Introduction
+    url: /pages/introduction.html
+  - title: Prediction 1
+    description: >
+      The “fake news” arms race will continue and will grow both in geographic breadth and in resources consumed. It will shift the focus of public debates and drive more people away from participative processes.
+    url: /pages/predictions/prediction-1.html
+  - title: Prediction 2
+    description: >
+      Governments and politicians will increasingly use data about citizens to decide how important it is to respond to their requests and demands.
+    url: /pages/predictions/prediction-2.html
+  - title: Prediction 3
+    description: >
+      The spread of identity verification technologies will be used by citizens to increase pressure on decision makers.
+    url: /pages/predictions/prediction-3.html
+  - title: Prediction 4
+    description: >
+      More political parties will develop more of their policy and choose more of their candidates through dedicated digital platforms.
+    url: /pages/predictions/prediction-4.html
+  - title: Prediction 5
+    description: >
+      Nations will diverge in their regulatory approaches to the use of AI by social media platforms, leading to very different spaces in which citizens and civil society will talk to each other and to government.
+    url: /pages/predictions/prediction-5.html
+  - title: Prediction 6
+    description: >
+      Activists and large technology companies will fight an ever-escalating arms race about who gets to speak to citizens, and who doesn’t.
+    url: /pages/predictions/prediction-6.html
+  - title: Prediction 7
+    description: >
+      The rise in “free” (cross-subsidized) internet access will influence civic and political cultures and conversations.
+    url: /pages/predictions/prediction-7.html
+  - title: Prediction 8
+    description: >
+      If augmented reality glasses become truly widespread, they may become a driver of increased citizen awareness around local issues.
+    url: /pages/predictions/prediction-8.html
+  - title: Prediction 9
+    description: >
+      Automation will drive a reduction in certain types of feedback from citizens to governments.
+    url: /pages/predictions/prediction-9.html
+  - title: Prediction 10
+    description: >
+      Conversational AI bots will be used to acquire, mobilize, and coordinate activists.
+    url: /pages/predictions/prediction-10.html
+  - title: Prediction 11
+    description: >
+      Numerous attempts will be made to use “blockchain” to improve trust in participative exercises.
+    url: /pages/predictions/prediction-11.html
+  - title: Implications
+    url: /pages/implications-conclusions.html
+  - title: Measures
+    url: /measures.html
+  - title: Conclusion
+    url: /pages/conclusion.html
