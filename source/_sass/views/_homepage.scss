@@ -1,6 +1,19 @@
 .homepage-hero {
-    @include breakpoint($medium-up) {
-        padding-bottom: 192px;
+    padding-bottom: 0;
+}
+
+.homepage-hero-overlay {
+    text-align: center;
+
+    p {
+        line-height: 1.62;
+        margin: 0 0 4px 0;
+        color: rgba($navy, 0.33);
+    }
+
+    strong {
+        color: rgba($navy, 0.8);
+        font-style: italic;
     }
 }
 
@@ -216,6 +229,12 @@
         max-width: $app-body-max;
         margin: 0 auto;
         // text-align: center;
+    }
+
+    &__single-title {
+        font-family: $serif !important;
+        font-weight: 300 !important;
+        font-size: 1.125em;
     }
 
     li {
