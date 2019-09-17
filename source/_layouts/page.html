@@ -1,5 +1,6 @@
 ---
 layout: default
+download: small-only
 ---
 {% assign initialSlide = 0 %}
 {% for chapter in site.data.config.index %}
@@ -40,6 +41,12 @@ layout: default
         </ul>
         {% endif %}
     </main>
+
+    <div class="content-download">
+        <a class="download-button" href="{{ site.data.config.report_file }}" target="_blank" rel="noopener">
+            <p>Download the report</p>
+        </a>
+    </div>
 
     <div class="content-footer content-footer--shadow">
         <div class="app-wrapper">

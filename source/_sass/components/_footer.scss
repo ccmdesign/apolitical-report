@@ -8,26 +8,49 @@ footer {
         height: 96px;
     }
 
-    background-color: $black;
-    padding: 24px 20px 40px 20px;
-    color: rgba($white, 0.4);
-    font-style: italic;
-    font-weight: 300;
-    text-align: center;
-    font-size: 0.75em;
+    .footer-wrapper {
+        position: relative;
+        background-color: $black;
+        padding: 24px 20px 40px 20px;
+        color: rgba($white, 0.4);
+        font-style: italic;
+        font-weight: 300;
+        text-align: center;
+        font-size: 0.75em;
+        height: 192px;
 
-    strong {
-        color: $white;
-        font-size: 0.875rem;
-        padding-bottom: 32px;
+        @include breakpoint($large) {
+            height: 96px;
+        }
+
+        strong {
+            color: $white;
+            font-size: 0.875rem;
+            padding-bottom: 32px;
+        }
+    
+        p {
+            margin: 0;
+        }
+    
+        a {
+            opacity: 0.35;
+        }
     }
 
-    p {
-        margin: 0;
-    }
+    .footer-download {
+        background-color: rgba(0, 0, 0, 0.1);
+        height: 96px;
 
-    a {
-        opacity: 0.35;
+        @include breakpoint($medium-up) {
+            padding-top: 14px;
+        }
+
+        &--on-small {
+            @include breakpoint($medium-up) {
+                display: none;
+            }
+        }
     }
 }
 
