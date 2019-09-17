@@ -88,6 +88,8 @@ index:
     url: /pages/measures/measure-6.html
   - title: Conclusion
     url: /pages/conclusion.html
+  - title: Authors
+    url: /pages/authors.html
   #- title: References
   #  url: /pages/references.html
 
@@ -171,4 +173,7 @@ small_index:
     url: /pages/measures/measure-6.html
   - title: Conclusion
     url: /pages/conclusion.html
+    single: true
+  - title: Authors
+    url: /pages/authors.html
     single: true

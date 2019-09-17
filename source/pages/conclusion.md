@@ -5,6 +5,8 @@ description: >
   
 previous_title: Measure 6
 previous_url: /pages/measures/measure-6.html
+next_title: Authors
+next_url: /pages/authors.html
 ---
 
 {% contentfor main %}
