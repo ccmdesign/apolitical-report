@@ -5,6 +5,8 @@ description: >
   
 previous_title: Conclusion
 previous_url: /pages/conclusion.html
+next_title: Authors
+next_url: /pages/authors.html
 ---
 
 {% contentfor main %}

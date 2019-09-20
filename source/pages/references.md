@@ -3,8 +3,8 @@ layout: page
 title: References
 description: >
   
-previous_title: Conclusion
-previous_url: /pages/conclusion.html
+previous_title: Authors
+previous_url: /pages/authors.html
 ---
 
 {% contentfor main %}
