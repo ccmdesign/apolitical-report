@@ -1,13 +1,13 @@
 <footer>
     {% if page.download == true or include.download == true %}
     <div class="footer-download">
-        <a class="download-button" href="{{ site.data.config.report_file }}" target="_blank" rel="noopener">
+        <a class="download-button" href="{{ site.data.config.report_file | relative_url }}" target="_blank" rel="noopener">
             <p>Download the report</p>
         </a>
     </div>
     {% elsif page.download == small-only or include.download == small-only %}
     <div class="footer-download footer-download--on-small">
-        <a class="download-button" href="{{ site.data.config.report_file }}" target="_blank" rel="noopener">
+        <a class="download-button" href="{{ site.data.config.report_file | relative_url }}" target="_blank" rel="noopener">
             <p>Download the report</p>
         </a>
     </div>

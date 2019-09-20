@@ -24,9 +24,9 @@ Society must not, however, make the opposite mistake and blithely assert that go
 
 As an institution that attaches great value to citizen’s involvement in government decision making, the World Bank has an obligation to pay attention to all the factors that influence the operation of citizen engagement. Modern digital technology is only one of these factors. However, it warrants particular attention because of the sheer amount of claims that have been circulating about the connection between the internet and the health of key governance systems upon which nations are founded.
 
-### Purpose of this paper
+### Purpose of this study
 
-The recent rapid evolution of digital technologies has been changing behaviors and expectations in countries around the world. These shifts make it the right time to pose the key question this paper explores:
+The recent rapid evolution of digital technologies has been changing behaviors and expectations in countries around the world. These shifts make it the right time to pose the key question this study explores:
 
 > Will digital technologies, both those that are already widespread and those that are still emerging, have substantial impacts on the way citizens engage and the ways through which power is sought, used, or contested?
 
@@ -38,9 +38,9 @@ Second, the World Bank already researches and endorses certain approaches to cit
 
 Finally, the World Bank makes risk assessments as part of all its work, and these risk assessments may have to change if the way citizens and states interact change.
 
-This paper explores what technology might mean for citizen engagement, whether for good or for bad. It makes a range of predictions and offers measures for governments to consider. It is one in a series of four notes from the Governance Global Practice on citizen engagement in the areas of fragility, conflict, and violence situations; governance; trust; and emerging technology.
+This study explores what technology might mean for citizen engagement, whether for good or for bad. It makes a range of predictions and offers measures for governments to consider. It is one in a series of four notes from the Governance Global Practice on citizen engagement in the areas of fragility, conflict, and violence situations; governance; trust; and emerging technology.
 
-Unlike other papers in the series, this work goes beyond the World Bank’s standard definition of citizen engagement, which is “the two-way interaction between citizens and governments or the private sector within the scope of the World Bank Group’s interventions” (World Bank 2014). A broader definition encompasses a range of activities widely understood in the literature as political and public participation, which includes both electoral and nonelectoral types of participation. This approach is aligned with recent World Bank research that highlights the interplay between electoral and nonelectoral types of participation and their role in promoting accountability and development outcomes (World Bank 2016a,b, 2017).
+Unlike other studies in the series, this work goes beyond the World Bank’s standard definition of citizen engagement, which is “the two-way interaction between citizens and governments or the private sector within the scope of the World Bank Group’s interventions” (World Bank 2014). A broader definition encompasses a range of activities widely understood in the literature as political and public participation, which includes both electoral and nonelectoral types of participation. This approach is aligned with recent World Bank research that highlights the interplay between electoral and nonelectoral types of participation and their role in promoting accountability and development outcomes (World Bank 2016a,b, 2017).
 
 For clarity, the authors focus primarily on the interaction between citizens and state actors, and they do not consider interaction between citizens and other powerful actors, such as businesses.
 
@@ -48,7 +48,7 @@ For clarity, the authors focus primarily on the interaction between citizens and
 
 The very nature of emerging technologies is track records too short and distribution too narrow to allow for meaningful statistical or economic modeling (unlike, for example, trade data). As a consequence, the authors use an inductive and aspirational approach. Being inductive, this work does not test hypotheses after the fact. Instead the authors’ insights — and those of interviewees — are meant to be no more than general propositions based on available observations of how technologies affect, or fail to affect, citizen engagement in both distant and recent history.
 
-This paper is aspirational because it summarizes a search for ways in which emerging technologies might plausibly promote more effective citizen engagement. It also conveys concerns about the negative effects modern digital technologies can have on the governance of nations.[^3]
+This study is aspirational because it summarizes a search for ways in which emerging technologies might plausibly promote more effective citizen engagement. It also conveys concerns about the negative effects modern digital technologies can have on the governance of nations.[^3]
 
 Despite many new challenges created, new and better citizen engagement approaches might be possible. Focusing solely on threats would add little new to a public discourse already saturated with worries. What is missing from public discourse is a wide range of options that citizens or decision makers could call on to make their interactions more successful.
 
@@ -68,7 +68,7 @@ Despite the lower technology penetration levels in developing countries, their m
 
 [^2]: The kleroterion was a device used by the Athenians to randomly select citizens to occupy important civic positions such as the Council of 500, which represented the full-time government of Athens. In 2018, researchers built a fully functioning stone replica of the kleroterion.
 
-[^3]: The authors are cognizant of the potential exclusionary effects of digitally enabled citizen engagement, particularly in developing contexts. However, this issue falls outside the scope of this paper and is extensively addressed in other World Bank publications (e.g., Peixoto and Fox 2016; Spada et al. 2016; Mellon, Peixoto, and Sjoberg 2017; Mellon et al. 2017; Peixoto and Sifry 2017). The authors also recognize that their efforts are not immune to Amara’s law, where predictions about the effects of digital technologies are overestimated in the short run and underestimated in the long run.
+[^3]: The authors are cognizant of the potential exclusionary effects of digitally enabled citizen engagement, particularly in developing contexts. However, this issue falls outside the scope of this study and is extensively addressed in other World Bank publications (e.g., Peixoto and Fox 2016; Spada et al. 2016; Mellon, Peixoto, and Sjoberg 2017; Mellon et al. 2017; Peixoto and Sifry 2017). The authors also recognize that their efforts are not immune to Amara’s law, where predictions about the effects of digital technologies are overestimated in the short run and underestimated in the long run.
 
 {% endfootnotes %}
 {% endcontentfor %}

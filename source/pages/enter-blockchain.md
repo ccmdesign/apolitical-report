@@ -12,7 +12,7 @@ next_url: /pages/implications-conclusions.html
 {% contentfor main %}
 {% markdown %}
 
-Into this doubt-riddled scene, a new technology has appeared; a technology that can, in the eye of its proponents, eliminate some of the mistrust of data. This new technology has various names, but in this paper it’s called “blockchain” to reflect its most popular moniker.[^19]
+Into this doubt-riddled scene, a new technology has appeared; a technology that can, in the eye of its proponents, eliminate some of the mistrust of data. This new technology has various names, but in this study it’s called “blockchain” to reflect its most popular moniker.[^19]
 
 A blockchain is a special and relatively new kind of database engineered to make it very difficult to alter historic records. For more detailed explanations of what blockchains are and how they work, see Skella (2018) and Crosby et al. (2015).
 

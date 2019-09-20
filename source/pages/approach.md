@@ -14,7 +14,7 @@ next_url: /pages/predictions-intro.html
 
 The very nature of emerging technologies is track records too short and distribution too narrow to allow for meaningful statistical or economic modeling (unlike, for example, trade data). As a consequence, the authors use an inductive and aspirational approach. Being inductive, this work does not test hypotheses after the fact. Instead the authors’ insights — and those of interviewees — are meant to be no more than general propositions based on available observations of how technologies affect, or fail to affect, citizen engagement in both distant and recent history.
 
-This paper is aspirational because it summarizes a search for ways in which emerging technologies might plausibly promote more effective citizen engagement. It also conveys concerns about the negative effects modern digital technologies can have on the governance of nations.[^3]
+This study is aspirational because it summarizes a search for ways in which emerging technologies might plausibly promote more effective citizen engagement. It also conveys concerns about the negative effects modern digital technologies can have on the governance of nations.[^3]
 
 Despite many new challenges created, new and better citizen engagement approaches might be possible. Focusing solely on threats would add little new to a public discourse already saturated with worries. What is missing from public discourse is a wide range of options that citizens or decision makers could call on to make their interactions more successful.
 
@@ -26,7 +26,7 @@ To help the authors with this effort, leading researchers and practitioners in t
 {% contentfor footnotes %}
 {% footnotes %}
 
-[^3]: The authors are cognizant of the potential exclusionary effects of digitally enabled citizen engagement, particularly in developing contexts. However, this issue falls outside the scope of this paper and is extensively addressed in other World Bank publications (e.g., Peixoto and Fox 2016; Spada et al. 2016; Mellon, Peixoto, and Sjoberg 2017; Mellon et al. 2017; Peixoto and Sifry 2017). The authors also recognize that their efforts are not immune to Amara’s law, where predictions about the effects of digital technologies are overestimated in the short run and underestimated in the long run.
+[^3]: The authors are cognizant of the potential exclusionary effects of digitally enabled citizen engagement, particularly in developing contexts. However, this issue falls outside the scope of this study and is extensively addressed in other World Bank publications (e.g., Peixoto and Fox 2016; Spada et al. 2016; Mellon, Peixoto, and Sjoberg 2017; Mellon et al. 2017; Peixoto and Sifry 2017). The authors also recognize that their efforts are not immune to Amara’s law, where predictions about the effects of digital technologies are overestimated in the short run and underestimated in the long run.
 
 {% endfootnotes %}
 {% endcontentfor %}

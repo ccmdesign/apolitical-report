@@ -21,7 +21,7 @@ Consider, for example, the idea of online voting — the idea that citizens shou
 
 Elections aren’t the only area in which a lack of trust in digital recordkeeping has real impacts. Professor Marco Deseriis of Northeastern University shared the impact that unreliable data storage has on modern European political parties. Some of these parties, especially newer ones, use online platforms to allow their supporters to discuss and propose policies as well as discuss and vote on prospective candidates who might stand for election. Deseriis said that accusations about the malicious manipulation of data within these systems were now widespread. Similar stories seem likely to suppress the willingness of more citizens to get involved in these kinds of services. They will have reason to doubt that their ideas and wishes will be faithfully conveyed to their peers and to party decision makers.
 
-Finally, doubts about robust recordkeeping have a negative impact on the effectiveness of petitions and their close cousins, citizen initiatives. Research for this paper uncovered evidence that unreliable recordkeeping of signatures on petitions has a long and problematic history.[^18] Time after time, doubts about the veracity of petition signatures have been used by politicians to delegitimize demands from citizens and resist calls for action and change.
+Finally, doubts about robust recordkeeping have a negative impact on the effectiveness of petitions and their close cousins, citizen initiatives. Research for this study uncovered evidence that unreliable recordkeeping of signatures on petitions has a long and problematic history.[^18] Time after time, doubts about the veracity of petition signatures have been used by politicians to delegitimize demands from citizens and resist calls for action and change.
 
 In summary, a lack of faith in the reliability of civic recordkeeping is an active suppressor of many kinds of citizen engagement activities, both old and new.
 
@@ -32,7 +32,7 @@ In summary, a lack of faith in the reliability of civic recordkeeping is an acti
 
 ### Enter Blockchain Technologies
 
-Into this doubt-riddled scene, a new technology has appeared; a technology that can, in the eye of its proponents, eliminate some of the mistrust of data. This new technology has various names, but in this paper it’s called “blockchain” to reflect its most popular moniker.[^19]
+Into this doubt-riddled scene, a new technology has appeared; a technology that can, in the eye of its proponents, eliminate some of the mistrust of data. This new technology has various names, but in this study it’s called “blockchain” to reflect its most popular moniker.[^19]
 
 A blockchain is a special and relatively new kind of database engineered to make it very difficult to alter historic records. For more detailed explanations of what blockchains are and how they work, see Skella (2018) and Crosby et al. (2015).
 
