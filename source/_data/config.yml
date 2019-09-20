@@ -90,8 +90,8 @@ index:
     url: /pages/conclusion.html
   - title: Authors
     url: /pages/authors.html
-  #- title: References
-  #  url: /pages/references.html
+  - title: References
+    url: /pages/references.html
 
 small_index:
   - title: Abstract
@@ -176,4 +176,7 @@ small_index:
     single: true
   - title: Authors
     url: /pages/authors.html
+    single: true
+  - title: References
+    url: /pages/references.html
     single: true
