@@ -39,7 +39,7 @@ Third, these new identity systems could be used to make it clearer to decision m
 
 Society is entering an era in which decision makers will steadily obtain more precise and convincing data about who is asking them for action, which is likely to increase the pressure on decision makers to conform, especially if data are mixed with wider reputation data. However, research undertaken for this study leads to the conclusion that confusion on the part of decision makers about whether they are being pressed for change by real residents or ‘fake’ people is likely to be a temporary phase that is likely to be largely gone within a decade.
 
-Verifying the identity of individual citizens is only one piece of the puzzle that needs solving if politicians and decision makers are to have certainty that citizen demands are real. The next section looks at what happens if the demands are felt to be phony.
+Verifying the identity of individual citizens is only one piece of the puzzle that needs solving if politicians and decision makers are to have certainty that citizen demands are real. Prediction 11 looks at what happens if the demands are felt to be phony.
 
 {% endmarkdown %}
 {% endcontentfor %}
