@@ -20,7 +20,7 @@ img {
 }
 
 #app {
-  opacity: 0;
+  // opacity: 0;
   transition: transform 1s ease-in-out, opacity 0.75s ease-in-out, filter 0.33s ease-in-out;
   min-height: 100vh;
   padding-bottom: 192px;
@@ -31,9 +31,9 @@ img {
     pointer-events: none;
   }
 
-  &.visible {
-    opacity: 1;
-  }
+  // &.visible {
+  //   opacity: 1;
+  // }
 }
 
 #lock-overlay {
